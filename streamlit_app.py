@@ -80,7 +80,7 @@ with form:
   
     cols = st.columns(3)                
     source = cols[0].selectbox(
-        "Source", ["Agency, "Direct", "Recruitment Website", "Other"], index=2
+        "Source", ["Agency", "Direct", "Recruitment Website", "Other"], index=2
     )
     ref = cols[2].text_area("Ref:")
     source_comment = cols[2].text_area("Info:")
